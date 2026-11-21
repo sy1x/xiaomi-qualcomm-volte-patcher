@@ -1,6 +1,9 @@
 # SKT VoLTE on the Xiaomi Mi 9T (`davinci`)
 
-This procedure restored VoLTE on a global Xiaomi Mi 9T running LineageOS `23.2-20260531-NIGHTLY-davinci` with an SKT MVNO SIM in slot 1. Before the fix, LTE data worked and calls dropped to H+. After activating the `Commercial-SKT` modem profile, IMS Service Status showed **Voice over LTE: Available** and a regular call connected and stayed on LTE with Wi-Fi off. Persistence across reboot or SIM changes is unverified.
+This procedure restored VoLTE on a global Xiaomi Mi 9T running LineageOS `23.2-20260531-NIGHTLY-davinci` with a Korean SKTelecom (MVNO) SIM in slot 1. Before the fix, LTE data worked and calls dropped to H+. After activating the `Commercial-SKT` modem profile, IMS Service Status showed **Voice over LTE: Available** and a regular call connected and stayed on LTE with Wi-Fi off. Persistence across reboot or SIM changes is unverified.
+
+> [!WARNING]
+> I am not responsible for any potential damage done to any device caused by using this script. Before running the script, read the entire README.md carefully. Do not attempt if you do not have sufficient background knowledge regarding what you are currently trying to do. The source code for its script is visible without running by opening the file with a text editor application. Use at your own risk.
 
 | Item | Tested setup |
 | --- | --- |
